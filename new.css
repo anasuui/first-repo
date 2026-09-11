@@ -1,0 +1,18 @@
+h1 {
+    position: relative;
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    animation: oldTV 8s linear infinite;
+}
+
+@keyframes oldTV {
+    0%   { transform: translate(0, 0); }
+    20%  { transform: translate(300px, 100px); }
+    40%  { transform: translate(0px, 600px); }
+    60%  { transform: translate(800px, 0px); }
+    80%  { transform: translate(50px, 200px); }
+    100% { transform: translate(0, 0); }
+}
